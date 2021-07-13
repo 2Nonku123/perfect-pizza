@@ -3,7 +3,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+.center {
+    display:flex;
+    justify-content:center;
+    align-items:5em;
+    border:3px solid green;
+}
 
 .pizza {
 /* box-model */
