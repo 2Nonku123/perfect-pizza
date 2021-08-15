@@ -34,11 +34,19 @@ border-radius: 0.7em;
 
 .contacts{
 background-color: #43BCCD;
+flex:2;
 }
 
 .special {
     background-color: indigo;
     color: red
+}
+
+.center_contacts{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
 }
 
 @media (min-width:760px) {
